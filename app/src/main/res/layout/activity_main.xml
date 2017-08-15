@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vad.dailyprogress.MainActivity">
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/txtMitra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editName"
+        android:layout_marginTop="27dp"
+        android:text="Mitra" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtMitra"
+        android:layout_marginTop="29dp"
+        android:text="Alamat Site " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="34dp"
+        android:text="Tinggi Tower" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:text="Type Site" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+
+        android:text="Type Tower" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:text="Jenis Pondasi" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="SUBMIT" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spPondasi"
+        android:layout_marginTop="42dp"
+        android:layout_toStartOf="@+id/tgl"
+        android:text="Tanggal Bowplank" />
+
+    <EditText
+        android:id="@+id/editMitra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtMitra"
+        android:layout_alignEnd="@+id/editName"
+        android:layout_alignStart="@+id/btnSubmit"
+        android:layout_marginStart="35dp" />
+
+    <EditText
+        android:id="@+id/editSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignEnd="@+id/editMitra"
+        android:layout_alignStart="@+id/editMitra" />
+
+    <Spinner
+        android:id="@+id/spTinggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/spSite"
+        android:layout_alignTop="@+id/textView2"
+        android:entries="@array/tinggi" />
+
+    <Spinner
+        android:id="@+id/spSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_below="@+id/editSite"
+        android:layout_toEndOf="@+id/tgl"
+
+        android:entries="@array/site" />
+
+    <Spinner
+        android:id="@+id/spTower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/spTinggi"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_below="@id/editSite"
+        android:entries="@array/tower" />
+
+    <Spinner
+        android:id="@+id/spPondasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/spTinggi"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_toEndOf="@+id/btnSubmit"
+        android:entries="@array/pondasi" />
+
+    <EditText
+        android:id="@+id/tgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:hint="Pilih Tanggal" />
+
+
+</RelativeLayout>

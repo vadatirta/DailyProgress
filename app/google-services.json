@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1008769676572",
+    "firebase_url": "https://dialyprogress.firebaseio.com",
+    "project_id": "dialyprogress",
+    "storage_bucket": "dialyprogress.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008769676572:android:85fc37c379abe255",
+        "android_client_info": {
+          "package_name": "com.example.vad.dailyprogress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008769676572-g4q88ipkqrf4it361t9v8j0hhok65eft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vad.dailyprogress",
+            "certificate_hash": "31f84ed7b8f8a5bfb2f151e56fa4e9cccfcdd3cd"
+          }
+        },
+        {
+          "client_id": "1008769676572-5kremdj7u60q32fna1vffd8usvn13gkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCukt-unwDly-BS9IGCQz2FcZDaZlIXOgY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008769676572-5kremdj7u60q32fna1vffd8usvn13gkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

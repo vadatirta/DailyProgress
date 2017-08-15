@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tinggi">
+        <item>15/20</item>
+        <item>32</item>
+        <item>42</item>
+        <item>52</item>
+        <item>62</item>
+        <item>72</item>
+    </string-array>
+
+    <string-array name="pondasi">
+        <item>Bor pile</item>
+        <item>Raft</item>
+        <item>Stacking Gedung</item>
+    </string-array>
+
+    <string-array name="site">
+        <item>Monopole</item>
+        <item>SST</item>
+    </string-array>
+
+    <string-array name="tower">
+        <item>Green Field</item>
+        <item>Roof Top</item>
+    </string-array>
+</resources>

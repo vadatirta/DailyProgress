@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="40dp"
         android:text="Tinggi Tower" />
 
     <TextView
@@ -50,6 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView2"
+        android:layout_marginTop="10dp"
         android:text="Type Site" />
 
     <TextView
@@ -58,6 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView3"
+        android:layout_marginTop="10dp"
 
         android:text="Type Tower" />
 
@@ -67,6 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView4"
+        android:layout_marginTop="10dp"
         android:text="Jenis Pondasi" />
 
     <Button
@@ -82,7 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/spPondasi"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="60dp"
         android:layout_toStartOf="@+id/tgl"
         android:text="Tanggal Bowplank" />
 
@@ -107,6 +110,7 @@
         android:id="@+id/spTinggi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
         android:layout_alignStart="@+id/spSite"
         android:layout_alignTop="@+id/textView2"
         android:entries="@array/tinggi" />
@@ -115,17 +119,19 @@
         android:id="@+id/spSite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
         android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/textView3"
         android:layout_below="@+id/editSite"
-        android:layout_toEndOf="@+id/tgl"
 
+        android:layout_toEndOf="@+id/tgl"
         android:entries="@array/site" />
 
     <Spinner
         android:id="@+id/spTower"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/textView6"
         android:layout_alignParentEnd="true"
         android:layout_alignStart="@+id/spTinggi"
         android:layout_alignTop="@+id/textView4"
@@ -136,9 +142,11 @@
         android:id="@+id/spPondasi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
         android:layout_alignStart="@+id/spTinggi"
         android:layout_alignTop="@+id/textView6"
         android:layout_below="@+id/textView6"
+
         android:layout_toEndOf="@+id/btnSubmit"
         android:entries="@array/pondasi" />
 
@@ -149,6 +157,14 @@
         android:layout_alignTop="@+id/textView7"
         android:layout_centerHorizontal="true"
         android:hint="Pilih Tanggal" />
+
+    <EditText
+        android:id="@+id/hd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tgl"
+        android:layout_alignEnd="@+id/btnSubmit"
+        android:layout_alignStart="@+id/btnSubmit"/>
 
 
 </RelativeLayout>

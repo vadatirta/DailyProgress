@@ -28,7 +28,6 @@ public class Model {
 
     }
 
-
     public String getEditMitra() {
         return editMitra;
     }
@@ -55,6 +54,14 @@ public class Model {
 
     public String getTgl() {
         return tgl;
+    }
+
+    public class tahap {
+        public String tv1;
+
+        public tahap(String tv1) {
+            this.tv1 = tv1;
+        }
     }
 
 }

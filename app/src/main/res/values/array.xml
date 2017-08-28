@@ -24,4 +24,61 @@
         <item>Green Field</item>
         <item>Roof Top</item>
     </string-array>
+
+    <string-array name="durasi">
+        <item>18</item>
+        <item>16</item>
+        <item>20</item>
+        <item>22</item>
+        <item>25</item>
+        <item>23</item>
+        <item>26</item>
+        <item>28</item>
+        <item>32</item>
+        <item>30</item>
+        <item>33</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="tahapan">
+        <item>Bowplank</item>
+        <item>Besi KS On Site</item>
+        <item>Bor pile</item>
+        <item>Galian</item>
+        <item>Angkur Template On Site</item>
+        <item>Pembesian dan Bekestin</item>
+        <item>Pengecoran Pondasi</item>
+        <item>Material ME On Site</item>
+        <item>Tower On Site</item>
+        <item>Urugan Pondasi</item>
+        <item>Erection Tower</item>
+        <item>Pondasi BTS</item>
+        <item>Grounding dan ME</item>
+        <item>PLN Connected</item>
+        <item>Ready For Installation (RFI)</item>
+        <item>Pagar, Halaman, Akses</item>
+        <item>ATP</item>
+    </string-array>
+
+    <string-array name="tahapan2">
+        <item>Bowplank</item>
+        <item>Besi KS On Site</item>
+        <item>Bor pile</item>
+        <item>Galian</item>
+        <item>Angkur Template On Site</item>
+        <item>Pembesian dan Bekestin</item>
+        <item>Pengecoran Pondasi</item>
+        <item>Material ME On Site</item>
+        <item>Tower On Site</item>
+        <item>Urugan Pondasi</item>
+        <item>Erection Tower</item>
+        <item>Pondasi BTS</item>
+        <item>Grounding dan ME</item>
+        <item>PLN Connected</item>
+        <item>Ready For Installation (RFI)</item>
+        <item>Pagar, Halaman, Akses</item>
+        <item>ATP</item>
+    </string-array>
+
+
 </resources>
